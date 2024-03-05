@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic-Tac-Toe</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batman - The Dark Knight</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    #batman-image {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    #details {
+        margin-top: 20px;
+    }
+
+    #details p {
+        color: #666;
+        line-height: 1.6;
+    }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>zero chokdi</h1>
-    <div class="game-container">
-      <div class="game-board" id="gameBoard">
-        <!-- The game board will be generated using JavaScript -->
-      </div>
+
+<div class="container">
+    <h1>Batman - The Dark Knight</h1>
+    <img id="batman-image" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOzRCO_gKsCtWDnzQSTQ7QDSyz4MKFf7L8XvaxGh3BVdEW7v2M.com" alt="Batman from The Dark Knight">
+    <div id="details">
+        <p><strong>Title:</strong> The Dark Knight</p>
+        <p><strong>Released:</strong> 2008</p>
+        <p><strong>Directed by:</strong> Christopher Nolan</p>
+        <p><strong>Starring:</strong> Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Gary Oldman</p>
+        <p><strong>Plot:</strong> Set within a year after the events of Batman Begins, Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City until a mysterious and sadistic criminal mastermind known only as the Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against the Joker becomes deeply personal, forcing him to "confront everything he believes" and improve his technology to stop him.</p>
     </div>
-    <div class="overlay" id="winOverlay">
-      <div class="overlay-content">
-        <p id="winMessage"></p>
-        <button onclick="startGame()">New Game</button>
-      </div>
-    </div>
-    <button class="restart-button" onclick="restartAnimation()">restart game</button>
-  </div>
-  <script src="script.js"></script>
+</div>
+
 </body>
 </html>
